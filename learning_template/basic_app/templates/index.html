@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Welcome to Index</h1>
+    <h1>{{obj.text |cut:'world'}}</h1>
+    <h1>{{obj.number|add:"99"}}</h1>
+{% endblock %}
